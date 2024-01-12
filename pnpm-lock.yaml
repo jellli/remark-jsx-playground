@@ -8,7 +8,7 @@ importers:
 
   .: {}
 
-  packages/remark-jsx-playground:
+  packages/remark-jsx-preview:
     dependencies:
       unist-util-visit:
         specifier: ^5.0.0
@@ -47,9 +47,9 @@ importers:
       react-dom:
         specifier: ^18
         version: 18.2.0(react@18.2.0)
-      remark-jsx-playground:
-        specifier: file:../packages/remark-jsx-playground
-        version: file:packages/remark-jsx-playground
+      remark-jsx-preview:
+        specifier: file:../packages/remark-jsx-preview
+        version: file:packages/remark-jsx-preview
     devDependencies:
       '@types/node':
         specifier: ^20
@@ -4513,9 +4513,9 @@ packages:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
 
-  file:packages/remark-jsx-playground:
-    resolution: {directory: packages/remark-jsx-playground, type: directory}
-    name: remark-jsx-playground
+  file:packages/remark-jsx-preview:
+    resolution: {directory: packages/remark-jsx-preview, type: directory}
+    name: remark-jsx-preview
     dependencies:
       unist-util-visit: 5.0.0
     dev: false

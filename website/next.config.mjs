@@ -1,5 +1,5 @@
 import createMDX from '@next/mdx'
-import remarkJsxPlayground from 'remark-jsx-playground'
+import remarkJsxPreview from 'remark-jsx-preview'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -10,7 +10,7 @@ const nextConfig = {
 
 const withMDX = createMDX({
   options: {
-    remarkPlugins: [remarkJsxPlayground],
+    remarkPlugins: [remarkJsxPreview],
     rehypePlugins: [],
   },
 })

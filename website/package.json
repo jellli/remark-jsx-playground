@@ -16,7 +16,7 @@
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "remark-jsx-playground": "file:../packages/remark-jsx-playground"
+    "remark-jsx-preview": "file:../packages/remark-jsx-preview"
   },
   "devDependencies": {
     "@types/node": "^20",
