@@ -1,12 +1,27 @@
 {
   "name": "remark-jsx-playground",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.mts"
+    }
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsup --watch",
+    "build": "tsup"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5",
+    "unified": "^11.0.4"
+  }
 }
